@@ -37,14 +37,25 @@ A comprehensive full-stack web application designed for restaurant management. T
 
 Follow these steps to get the app running locally:
 
-### 1. Clone the repository
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/CodeAXwOrlD/FULL_STACK_RESTAURANT_WEBAPP.git
+   cd FULL_STACK_RESTAURANT_WEBAPP
 
+2. **Install server-side dependencies**
 ```bash
-git clone https://github.com/CodeAXwOrlD/FULL_STACK_RESTAURANT_WEBAPP.git
-cd FULL_STACK_RESTAURANT_WEBAPP
-
-### 2. Install server-side dependencies
-
-```cd server
+cd server
 npm install
+```
 
+3. **Set up environment variables**
+*Create a .env file in the /server directory:*
+```bash
+PORT=5000
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+```
+4. **Run the backend**
+```bash
+npm start
+```
