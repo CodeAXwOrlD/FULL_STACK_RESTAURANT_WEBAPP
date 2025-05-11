@@ -1,30 +1,50 @@
 # 🍽️ Full Stack Restaurant WebApp
 
-A comprehensive full-stack web application designed for restaurant management, encompassing features like menu display, table reservations, order processing, and administrative controls.
+A comprehensive full-stack web application designed for restaurant management. This project allows users to browse menus, place orders, and make reservations, while providing administrators with powerful tools to manage the restaurant's operations.
 
 ## 🚀 Features
 
-- **User Interface**: Browse menus, make reservations, and place orders seamlessly.
-- **Admin Dashboard**: Manage menu items, track orders, and oversee reservations.
-- **Authentication**: Secure login and registration for users and administrators.
-- **Responsive Design**: Optimized for desktops, tablets, and mobile devices.
+- 🧾 **Menu Management** – View and update restaurant menus.
+- 📦 **Order Management** – Place and track orders.
+- 🪑 **Table Reservations** – Book tables online with real-time availability.
+- 🔒 **User Authentication** – Secure sign-up, login, and JWT-based authorization.
+- 🧑‍💼 **Admin Panel** – Access dashboard to manage items, reservations, and more.
+- 📱 **Responsive UI** – Works seamlessly on all screen sizes.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (add any frameworks used like React if applicable)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Authentication**: JSON Web Tokens (JWT)
-- **Deployment**: (e.g., Heroku, Vercel, Netlify – update if applicable)
+### 🔧 Frontend
+- HTML, CSS, JavaScript
+- (Add framework if used, e.g., React.js)
 
-## 📸 Screenshots
+### 🔩 Backend
+- Node.js
+- Express.js
 
-*Add screenshots of the homepage, user panel, admin panel, etc.*
+### 🗃️ Database
+- MongoDB
+
+### 🔐 Authentication
+- JSON Web Tokens (JWT)
+- bcrypt for password hashing
+
+### ☁️ Deployment
+- (Mention if deployed on Vercel, Netlify, or Heroku)
+
+---
 
 ## 🧰 Installation
 
-1. **Clone the repository**:
+Follow these steps to get the app running locally:
 
-   ```bash
-   git clone https://github.com/CodeAXwOrlD/FULL_STACK_RESTAURANT_WEBAPP.git
-   cd FULL_STACK_RESTAURANT_WEBAPP
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/CodeAXwOrlD/FULL_STACK_RESTAURANT_WEBAPP.git
+cd FULL_STACK_RESTAURANT_WEBAPP
+
+### 2. Install server-side dependencies
+
+```cd server
+npm install
+
